@@ -45,59 +45,28 @@ hr{
     background-color: #00ffd5;
     margin:2px,0;
 }
-#nav{
+p{
     font-style: italic;
-    background-color: rgba(255,255,255,0.05);
-    padding:20px;
-    border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0,255,213,0.2);
-    margin-bottom: 20px;
 }
-#study,h3{
-    color:#ffffff;
-    text-align: center;
-    line-height: 100px;
-    margin: 0;
+.options{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
 }
-#study,a{
-      text-decoration: none;
-      color:#410445;
-      transition: color 0.3s;
+.option-box{
+    background-color: var(--base-color);
+    padding: 30px;
+    border-radius: 30px;
+    border: 1px solid #2ea043;
+    width: 250px;
+    transition: 0.3s;
+    cursor: pointer;
 }
-#study,a:hover{
-    color: green;
+.option-box:hover{
+    background-color: var(--base-varient);
 }
-#study,span,p {
-     text-align: center;
-     margin-top: 15px;
-     font-size: 1.1rem;
-}
-ul{
-    list-style: none;
-    padding-left: 0;
-}
-li{
-    margin:10px 0;
-}
-#read{
-    color: var(--primary-color);
-    text-decoration: none;
-    font-weight: bold;
-}
-#read:hover{
-    text-decoration: underline;
-    color:#ffffff;
-}
-.btn{
-    color:white;
-    padding: 10px 20px;
-    border-radius: 8px;
-    text-decoration: none;
-    transition: background 0.3s;
-}
-.btn:hover{
-    background-color: #0097a7;
-}
+
 #theme-switch{
     height: 50px;
     width: 50px;
@@ -124,3 +93,4 @@ li{
 .darkmode #theme-switch i:last-child{
     display: block;
 }
+
