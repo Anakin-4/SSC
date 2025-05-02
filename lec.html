@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lectures
+    </title>
+    <style>
+        body{
+            background-color: #070b1d;
+        }
+        .calendar-view {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.calendar-item {
+  display: block;
+  color:#00ffd5;
+  font-weight: bolder;
+  background-color: #101425;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none; 
+  border-radius: 12px;
+  transition: background-color 0.3s;
+}
+
+.calendar-item:hover {
+  background-color: #00ffd5;
+  color:black;
+}
+h2{
+    color: #00ffd5;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <h2>Video lectures</h2> <br>
+    <br>
+    <div class="calendar-view">
+        <a href="eng.html" class="calendar-item">English lectures</a>
+        <a href="gs.html" class="calendar-item">GS</a>
+        <a href="#" class="calendar-item">Reasoning(will be available soon)</a>
+        <a href="#" class="calendar-item">Maths(will be available soon)</a>
+      </div>
+</body>
+</html>
